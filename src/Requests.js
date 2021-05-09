@@ -1,4 +1,4 @@
-const API_KEY = "9638f038d76d99518729944807e20721";
+const API_KEY = "//get it from tmdb site";
 const Requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
